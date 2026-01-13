@@ -1,51 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Shanmukh Srinivas Reddy Basa | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shanmukh Srinivas Reddy Basa | Portfolio</title>
+  <meta name="description" content="Network & Information Security graduate portfolio: IT Support, Networking, and Cybersecurity projects." />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+  <header class="hero">
+    <div class="container">
+      <p class="badge">Open to roles • IT Support • Cybersecurity • Networking</p>
+      <h1>Shanmukh Srinivas Reddy Basa</h1>
+      <p class="subtitle">Network & Information Security Graduate | IT Support & Cybersecurity Enthusiast</p>
 
-<header>
-    <h1>Shanmukh Srinivas Reddy Basa</h1>
-    <p>Network & Information Security Graduate | IT Support & Cybersecurity Enthusiast</p>
-</header>
+      <div class="cta">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn" href="#contact">Contact</a>
+        <!-- Optional: add your LinkedIn/GitHub links below -->
+        <!-- <a class="btn ghost" href="https://www.linkedin.com/in/your-linkedin/" target="_blank">LinkedIn</a> -->
+        <!-- <a class="btn ghost" href="https://github.com/Shawn-19" target="_blank">GitHub</a> -->
+      </div>
 
-<section>
-    <h2>About Me</h2>
-    <p>
-        I am a Master’s graduate in Network and Information Security from Griffith College Limerick,
-        with 2 years of professional experience at HCL Technologies.
-        I have a strong interest in IT Support, Networking, and Cybersecurity.
-    </p>
-</section>
+      <div class="quick">
+        <div class="quick-card">
+          <div class="quick-title">Location</div>
+          <div class="quick-value">Limerick, Ireland</div>
+        </div>
+        <div class="quick-card">
+          <div class="quick-title">Visa</div>
+          <div class="quick-value">Stamp 1G</div>
+        </div>
+        <div class="quick-card">
+          <div class="quick-title">Experience</div>
+          <div class="quick-value">2 years • HCL Technologies</div>
+        </div>
+      </div>
+    </div>
+  </header>
 
-<section>
-    <h2>Skills</h2>
-    <ul>
-        <li>Networking (TCP/IP, DNS, DHCP)</li>
-        <li>Windows 10/11, Active Directory</li>
-        <li>Microsoft 365, Azure (Basics)</li>
-        <li>Cybersecurity Fundamentals</li>
-        <li>Hardware & Troubleshooting</li>
-    </ul>
-</section>
+  <main class="container">
+    <section class="card" id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a Master’s graduate in <strong>Network & Information Security</strong> from Griffith College Limerick,
+        with <strong>2 years of professional experience</strong> at HCL Technologies.
+        I enjoy troubleshooting, building reliable systems, and improving security through practical labs and documentation.
+      </p>
+      <div class="pill-row">
+        <span class="pill">IT Support</span>
+        <span class="pill">Networking</span>
+        <span class="pill">Cybersecurity</span>
+        <span class="pill">Documentation</span>
+        <span class="pill">Customer Service</span>
+      </div>
+    </section>
 
-<section>
-    <h2>Projects</h2>
-    <p>Coming soon – Network labs, security projects, and MSc dissertation work.</p>
-</section>
+    <section class="grid">
+      <section class="card">
+        <h2>Core Skills</h2>
+        <ul class="list">
+          <li><strong>Networking:</strong> TCP/IP, DNS, DHCP, subnetting, basic VLAN concepts</li>
+          <li><strong>Windows:</strong> Windows 10/11, troubleshooting, user/admin tasks</li>
+          <li><strong>Directory & Cloud:</strong> Active Directory, Microsoft 365, Azure basics</li>
+          <li><strong>Security:</strong> fundamentals, secure configuration, access control basics</li>
+          <li><strong>Tools:</strong> Wireshark, VirtualBox/VMware (home lab), ticketing basics</li>
+        </ul>
+      </section>
 
-<section>
-    <h2>Contact</h2>
-    <p>Email: shanmukhmasters@gmail.com</p>
-    <p>Location: Limerick, Ireland</p>
-</section>
+      <section class="card">
+        <h2>Education</h2>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-title">MSc – Network & Information Security</div>
+            <div class="tl-sub">Griffith College Limerick • 2024–2025</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-title">BTech – Computer Science & Engineering</div>
+            <div class="tl-sub">Centurion University, India</div>
+          </div>
+        </div>
 
-<footer>
-    <p>© 2026 Shanmukh Srinivas Reddy Basa</p>
-</footer>
+        <h3 class="mini">Experience</h3>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-title">Analyst – HCL Technologies</div>
+            <div class="tl-sub">3 years • IT Support / Operations</div>
+          </div>
+        </div>
+      </section>
+    </section>
 
+    <section class="card" id="projects">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p class="muted">Add real projects here — even home labs count if you explain the outcome.</p>
+      </div>
+
+      <div class="projects">
+        <article class="project">
+          <h3>Home Lab: Windows + Networking Basics</h3>
+          <p class="muted">
+            Built a virtual lab to practice Windows administration, networking fundamentals, and troubleshooting workflows.
+          </p>
+          <div class="tags">
+            <span class="tag">VirtualBox/VMware</span>
+            <span class="tag">Windows</span>
+            <span class="tag">Networking</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <h3>Packet Analysis Practice (Wireshark)</h3>
+          <p class="muted">
+            Captured and analysed traffic to understand DNS, DHCP, TCP handshakes, and common troubleshooting patterns.
+          </p>
+          <div class="tags">
+            <span class="tag">Wireshark</span>
+            <span class="tag">TCP/IP</span>
+            <span class="tag">DNS</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <h3>Security Fundamentals & Hardening Notes</h3>
+          <p class="muted">
+            Created checklists and notes for secure configuration basics: passwords, permissions, patching, and safe browsing.
+          </p>
+          <div class="tags">
+            <span class="tag">Hardening</span>
+            <span class="tag">Access Control</span>
+            <span class="tag">Documentation</span>
+          </div>
+        </article>
+      </div>
+
+      <p class="hint">
+        Next upgrade: add screenshots + a GitHub link for each project.
+      </p>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>Contact</h2>
+      <div class="contact">
+        <div>
+          <div class="muted">Email</div>
+          <a class="link" href="mailto:shanmukhmasters@gmail.com">shanmukhmasters@gmail.com</a>
+        </div>
+        <div>
+          <div class="muted">Location</div>
+          <div>Limerick, Ireland</div>
+        </div>
+        <div>
+          <div class="muted">GitHub</div>
+          <a class="link" href="https://github.com/Shawn-19" target="_blank" rel="noreferrer">github.com/Shawn-19</a>
+        </div>
+      </div>
+
+      <!-- Optional CV button: upload your CV as CV.pdf in the repo root, then uncomment below -->
+      <!-- <a class="btn primary" href="CV.pdf" target="_blank">Download CV</a> -->
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Shanmukh Srinivas Reddy Basa • Built with GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
